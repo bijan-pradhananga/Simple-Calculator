@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outerDiv{
+    width: 20%;
+    background-color: blue;
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
